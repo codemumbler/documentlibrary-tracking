@@ -10,6 +10,7 @@ Usage:
   Create or give permission to a user which has access to all documents you want tracked by Google Analytics.
   
   Add the following properties to the portal-ext.properties file:
+  
     document.download.tracking.account=UA-xxxxxx-x
     document.download.tracking.userid=userId
     
