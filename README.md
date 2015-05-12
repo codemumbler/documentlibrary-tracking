@@ -1,11 +1,11 @@
 documentlibrary-tracking
 ========================
 
-This is a Liferay 6.1 hook so that the Document Library can be tracking using Google Analytics.
+This is a Liferay 6.2 hook so that the Document Library can be tracking using Google Analytics.
 
 Usage:
 
-  Deploy to Liferay 6.1.x instance.
+  Deploy to Liferay 6.2.x instance.
   
   Create or give permission to a user which has access to all documents you want tracked by Google Analytics.
   
