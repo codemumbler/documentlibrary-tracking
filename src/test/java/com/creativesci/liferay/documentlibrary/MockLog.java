@@ -81,6 +81,11 @@ public class MockLog implements Log {
 		return false;
 	}
 
+	@Override
+	public void setLogWrapperClassName(String s) {
+
+	}
+
 	public void trace(Object o) {
 		messages.add(o.toString());
 	}

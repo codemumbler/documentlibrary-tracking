@@ -2,9 +2,9 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.creativesci.liferay.documentlibrary</groupId>
+	<groupId>io.github.codemumbler.liferay.documentlibrary</groupId>
 	<artifactId>tracking</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>war</packaging>
 	<name>Liferay Document Tracking Hook</name>
 
@@ -13,9 +13,9 @@
 			<plugin>
 				<groupId>com.liferay.maven.plugins</groupId>
 				<artifactId>liferay-maven-plugin</artifactId>
-				<version>${liferay.version}</version>
+				<version>${liferay.maven.plugin.version}</version>
 				<configuration>
-					<liferayVersion>${liferay.maven.plugin.version}</liferayVersion>
+					<liferayVersion>${liferay.version}</liferayVersion>
 					<pluginType>hook</pluginType>
 				</configuration>
 			</plugin>
@@ -76,8 +76,8 @@
 	</dependencies>
 	
 	<properties>
-		<liferay.version>6.1.2</liferay.version>
-		<liferay.maven.plugin.version>6.1.30.1</liferay.maven.plugin.version>
+		<liferay.version>6.2.2</liferay.version>
+		<liferay.maven.plugin.version>6.2.10.11</liferay.maven.plugin.version>
 		<liferay.auto.deploy.dir/>
 		<liferay.app.server.deploy.dir/>
 		<liferay.app.server.lib.global.dir/>
