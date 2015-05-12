@@ -4,7 +4,7 @@
 <hook>
 	<servlet-filter>
 		<servlet-filter-name>DLAnalytics Filter</servlet-filter-name>
-		<servlet-filter-impl>com.creativesci.liferay.documentlibrary.tracking.TrackingFilter</servlet-filter-impl>
+		<servlet-filter-impl>io.github.codemumbler.liferay.documentlibrary.tracking.TrackingFilter</servlet-filter-impl>
 	</servlet-filter>
 	<servlet-filter-mapping>
 		<servlet-filter-name>DLAnalytics Filter</servlet-filter-name>
