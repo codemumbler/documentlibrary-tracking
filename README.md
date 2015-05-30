@@ -1,7 +1,7 @@
 documentlibrary-tracking
 ========================
 
-This is a Liferay 6.2 hook so that the Document Library can be tracking using Google Analytics.
+This is a Liferay 6.2 hook which enables the Document Library document to be tracked using Google Analytics.
 
 Usage:
 
